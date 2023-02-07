@@ -1,5 +1,5 @@
 h1 {
-    color: #ebc156;
+    color:cornflowerblue;
     text-align:center;
     background-image: url("https://media.istockphoto.com/id/1126006056/vector/disc-golf-basket-and-disc-golf.jpg?s=612x612&w=is&k=20&c=MhuPHDPKShffgc7ca61q5AnzrIxPq-cbRDdNVHSvIAY=");
     height: 300px;
@@ -8,34 +8,42 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #856513;
+    color:blueviolet;
     background-image: linear-gradient(to bottom right, #22bcb9, #8dc63f);
+}
+
+ p {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1567621301854-85b95d32bbf3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    color:antiquewhite
 }
 
 div > p {
     text-align: center;
-    background-image: url("https://images.unsplash.com/photo-1567621301854-85b95d32bbf3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
-    height: 300px;
-    color:blanchedalmond
-}
-
-p {
-    text-align: center;
-    color: seagreen;
+    color:deeppink;
     background-color:bisque;
-    border: 10px;
+    border: 30px;
     border-color: slategray;
+    background-image: url("https://media.gettyimages.com/id/165607726/vector/disc-golf-is-fun.jpg?s=612x612&w=0&k=20&c=mPM8oMX_bCnS2eyp0n7XMNVORXn-_yuBzPHjkktQ-AM="), url("https://i.etsystatic.com/5155644/r/il/c30615/3003302143/il_340x270.3003302143_6tlo.jpg");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+   
+    
+
 }
 
 input {
-    height: 40px;
+    height: 75px;
 }
 
 button {
-    height: 40px;
+    height: 75px;
+    background-image: linear-gradient(to top, #e3e566, #264e49);
+    
 }
 
-select {
-    min-height: 200px;
-    text-size-adjust: 40px;
+div > button {
+    background-image: linear-gradient(to bottom, #addbbd, #42645a);
+    width: 200px
 }
+
